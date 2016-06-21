@@ -1,0 +1,44 @@
+{
+  "name": "meteor-css-modules-demo-css",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "postcss-modules-extract-imports": "1.0.0",
+    "postcss-modules-local-by-default": "1.0.0",
+    "postcss-modules-scope": "1.0.0",
+    "postcss-modules-values": "1.1.1",
+    "postcss-nested": "1.0.0",
+    "postcss-simple-vars": "1.1.0"
+  },
+  "cssModules": {
+    "extensions": [
+      "css"
+    ],
+    "passthroughPaths": [
+      "^client/global.css"
+    ],
+    "postcssPlugins": {
+      "postcss-simple-vars": {
+        "inlineOptions": {
+          "variables": {
+            "orange": "orange"
+          }
+        },
+        "fileOptions": [
+          "client/colors.txt",
+          "client/fonts.json"
+        ]
+      },
+      "postcss-modules-values": {},
+      "postcss-nested": {},
+      "postcss-modules-local-by-default": {},
+      "postcss-modules-extract-imports": {},
+      "postcss-modules-scope": {}
+    }
+  }
+}

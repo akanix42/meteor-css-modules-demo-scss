@@ -1,0 +1,9 @@
+.hello {
+  composes: b from "./b.css";
+  composes: a-global-style from global;
+  color: $orange;
+}
+
+.oh-hi-there button {
+  color: $blue;
+}
