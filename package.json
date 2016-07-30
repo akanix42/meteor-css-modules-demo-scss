@@ -8,6 +8,7 @@
     "meteor-node-stubs": "~0.2.0"
   },
   "devDependencies": {
+    "postcss-import": "^8.1.2",
     "postcss-modules-extract-imports": "1.0.0",
     "postcss-modules-local-by-default": "1.0.0",
     "postcss-modules-scope": "1.0.0",
@@ -22,7 +23,11 @@
     "passthroughPaths": [
       "^client/global.css"
     ],
+    "ignorePaths": [
+      "^node_modules/convert-source-map"
+    ],
     "postcssPlugins": {
+      "postcss-import": {},
       "postcss-simple-vars": {
         "inlineOptions": {
           "variables": {
