@@ -1,5 +1,6 @@
 {
   "variables": {
-	"bold": "16px"
+    "bold": "16px",
+    "size": "40px"
   }
 }

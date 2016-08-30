@@ -24,7 +24,8 @@
       "^client/global.css"
     ],
     "ignorePaths": [
-      "^node_modules/convert-source-map"
+      "^node_modules/convert-source-map",
+      "^node_modules/jspm"
     ],
     "postcssPlugins": {
       "postcss-import": {},
