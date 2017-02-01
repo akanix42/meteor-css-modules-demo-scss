@@ -1,12 +1,14 @@
-/*@import "./font.css";*/
-
 .hello {
-  composes: b from "./b.css";
+  composes: b from "./b.scss";
   composes: a-global-style from global;
   color: $orange;
   font-size: $size;
 }
 
-.oh-hi-there button {
+.oh-hi-there {
+
+button {
   color: $blue;
+}
+
 }

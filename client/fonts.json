@@ -1,6 +1,4 @@
 {
-  "variables": {
-    "bold": "16px",
-    "size": "40px"
-  }
+  "bold": "16px",
+  "size": "40px"
 }
