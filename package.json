@@ -9,11 +9,11 @@
     "meteor-node-stubs": "~0.2.0"
   },
   "devDependencies": {
-    "postcss-modules-extract-imports": "1.0.0",
-    "postcss-modules-local-by-default": "1.0.0",
-    "postcss-modules-scope": "1.0.0",
-    "postcss-modules-values": "1.1.1",
     "node-sass": "^4.4.0",
+    "postcss-modules-extract-imports": "1.0.1",
+    "postcss-modules-local-by-default": "1.1.1",
+    "postcss-modules-scope": "1.0.2",
+    "postcss-modules-values": "1.2.2"
   },
   "cssModules": {
     "extensions": [
